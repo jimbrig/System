@@ -29,7 +29,8 @@ Windows Registry Editor Version 5.00
 
 In the image below, I created a new folder via the explorer context menu and notice that its name is "Folder", not "New Folder":
 
-![image-20230204173922191](C:\Users\jimmy\AppData\Roaming\Typora\typora-user-images\image-20230204173922191.png)
+![image-20230204173922191](https://user-images.githubusercontent.com/32652297/216796470-1ca2382f-78ca-444b-95dc-6da891a08c52.png)
+
 
 ## Changing the Syntax for Created Shortcuts
 
@@ -47,4 +48,5 @@ Windows Registry Editor Version 5.00
 
 In the image below, I generated a shortcut from the Folder generated above and notice how it no longer uses the `Folder - Shortcut` syntax, but my new `Folder (Link)` syntax: 
 
-![image-20230204174150071](C:\Users\jimmy\AppData\Roaming\Typora\typora-user-images\image-20230204174150071.png)
+![image-20230204174150071](https://user-images.githubusercontent.com/32652297/216796474-1ba94135-1c50-42c5-8824-c5c2d94663e4.png)
+
