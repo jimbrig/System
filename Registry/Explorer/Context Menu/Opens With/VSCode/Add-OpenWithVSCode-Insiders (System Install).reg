@@ -1,0 +1,31 @@
+Windows Registry Editor Version 5.00
+
+Windows Registry Editor Version 5.00
+
+; Notes:
+; - VSCode INSIDERS 64-bit System Installation Installed
+; - The "Icon" line can be removed if you don't want the icon to appear
+
+; Open Files with VSCode
+[HKEY_CLASSES_ROOT\*\shell\Open with VS Code Insiders]
+@="Edit with VS Code Insiders"
+"Icon"="C:\\Program Files\\Microsoft VS Code Insiders\\Code - Insiders.exe,0"
+
+[HKEY_CLASSES_ROOT\*\shell\Open with VS Code Insiders\command]
+@="\"C:\\Program Files\\Microsoft VS Code Insiders\\Code - Insiders.exe\" \"%1\""
+
+; Open Folders with VSCode - Directory Context Menu
+[HKEY_CLASSES_ROOT\Directory\shell\vscode-insiders]
+@="Open Folder with VSCode Insiders"
+"Icon"="\"C:\\Program Files\\Microsoft VS Code Insiders\\Code - Insiders.exe\",0"
+
+[HKEY_CLASSES_ROOT\Directory\shell\vscode-insiders\command]
+@="\"C:\\Program Files\\Microsoft VS Code Insiders\\Code - Insiders.exe\" \"%1\""
+
+; Open Folders with VSCode - Explorer Context Menu INSIDE of Folder
+[HKEY_CLASSES_ROOT\Directory\Background\shell\vscode-insiders]
+@="Open Folder with VSCode Insiders"
+"Icon"="\"C:\\Program Files\\Microsoft VS Code Insiders\\Code - Insiders.exe\",0"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\vscode-insiders\command]
+@="\"C:\\Program Files\\Microsoft VS Code Insiders\\Code - Insiders.exe\" \"%V\""
