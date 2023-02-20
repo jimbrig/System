@@ -1,0 +1,20 @@
+Windows Registry Editor Version 5.00
+
+
+[HKEY_CLASSES_ROOT\*\shell\Open with VS Code Insiders]
+@="Edit with VS Code Insiders"
+"Icon"="C:\\Users\\jbriggs010\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\Code - Insiders.exe,0"
+[HKEY_CLASSES_ROOT\*\shell\Open with VS Code Insiders\command]
+@="\"C:\\Users\\jbriggs010\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\Code - Insiders.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\vscode-insiders]
+@="Open Folder with VSCode Insiders"
+"Icon"="\"C:\\Users\\jbriggs010\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\Code - Insiders.exe\",0"
+[HKEY_CLASSES_ROOT\Directory\shell\vscode-insiders\command]
+@="\"C:\\Users\\jbriggs010\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\Code - Insiders.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\vscode-insiders]
+@="Open Folder with VSCode Insiders"
+"Icon"="\"C:\\Users\\jbriggs010\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\Code - Insiders.exe\",0"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\vscode-insiders\command]
+@="\"C:\\Users\\jbriggs010\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\Code - Insiders.exe\" \"%V\""
